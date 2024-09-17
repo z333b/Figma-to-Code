@@ -48,6 +48,18 @@ nav ul li {
     font-size: 23px;
 }
 
+.nav-link{
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #F6B8A6;
+    background-color: #fff;
+}
+
+
 main {
     display: flex;
     justify-content: center;
