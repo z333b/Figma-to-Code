@@ -24,7 +24,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 180px;
 }
 
 .logo img {
@@ -35,17 +35,17 @@ header {
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    display: inline-flex;
+    display: flex;
     margin-right: 60px;
     color: #fff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 main {
@@ -62,7 +62,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    width: 100%; /* Make the section fill the width */
+    width: 110%; /* Make the section fill the width */
 }
 
 .text-content {
@@ -71,23 +71,23 @@ main {
 }
 
 .text-content h1 {
-    font-size: 60px;
+    font-size: 80px;
     color: #000;
 }
 
 .text-content p {
-    font-size: 30px;
+    font-size: 35px;
     margin: 20px 0;
     color: #000000;
 }
 
 .buy-button {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 20px 45px;
     background-color: #F6B8A6;
     color: #000;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 23px;
     margin-top: 80px;
 }
@@ -100,6 +100,6 @@ main {
 
 .image-content img {
     max-width: 120%; /* Enlarge the coffee image */
-    height: auto;
-    border-radius: 10px;
+    height: 600px;
+    border-radius: 20px;
 }
